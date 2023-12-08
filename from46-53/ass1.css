@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  color: #ff5722;
+  background-color: #eeeeee;
+  margin: 50px auto;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: -8px 0 0 0 #2196f3, 8px 0 0 0 #ff5722;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

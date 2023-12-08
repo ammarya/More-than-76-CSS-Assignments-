@@ -1,0 +1,212 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 
+div {
+  width: 100px;
+  height: 100px;
+  margin: 50px ;
+  background-color: #eee;
+  border-radius: 50% ;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  outline: 3px black solid;
+  box-shadow: 10px 10px 0 0 #2196f3, -10px -10px 0 0 #e91e63;
+  display: inline-block;
+  position: relative;
+}
+
+div::before {
+  content: "Element";
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+div:nth-of-type(1)::after {
+  content: "1";
+  color: white;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  left: 35px;
+  top: -15px;
+  text-align: center;
+}
+
+div:nth-of-type(2)::after {
+  content: "2";
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 35px;
+  top: -15px;
+  text-align: center;
+}
+
+div:nth-of-type(3)::after {
+  content: "3";
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 35px;
+  top: -15px;
+  text-align: center;
+}  */
+
+
+
+
+/* div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: #efefef;
+  border-top-left-radius: 10px 30px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 10px 30px;
+  box-shadow: 5px 5px 20px 0 inset #818181, -5px -5px 20px 0 inset #818181;
+} */
+
+
+
+/* .parent {
+  width: 550px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #ddd; 
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.parent::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #03a9f4;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  top: 0;
+}
+
+
+.parent::after {
+  content: "Or";
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #03a9f4;
+  color: white;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+
+.parent .child1 {
+  width: calc(50% - 25px);
+  float: left;
+  background-color: #eee;
+  padding: 15px;
+}
+
+.parent .child2 {
+  width: calc(50% - 25px);
+  float: right;
+  background-color: #eee;
+  padding: 15px;
+}
+
+
+.parent .child1 h2, .parent .child2 h2 {
+  background-color: #03a9f4;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px;
+}
+
+
+.parent .child1 .content, .parent .child2 .content {
+  width: 210px;
+  height: 210px;
+  background-color: #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 210px;
+  margin-top: 20px;
+  font-size: 40px;
+} */
+
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  color: #ff5722;
+  background-color: #eeeeee;
+  margin: 50px auto;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: -8px 0 0 0 #2196f3, 8px 0 0 0 #ff5722;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

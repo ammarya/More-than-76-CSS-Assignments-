@@ -1,0 +1,92 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mainColor: #ddd;
+  --mainMargin: 10px;
+  --mainPadding: 10px;
+}
+
+.page {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page .header {
+  margin: var(--mainMargin);
+  display: flex;
+}
+
+.page .header .logo {
+  background-color: var(--mainColor);
+  margin-right: var(--mainMargin);
+  display: flex;
+  flex-basis: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.page .header ul {
+  background-color: var(--mainColor);
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding: var(--mainMargin);
+}
+
+.page .header ul li {
+  margin-left: var(--mainMargin);
+}
+
+.page .main-area {
+  margin: 0 var(--mainMargin);
+  display: flex;
+  flex-grow: 1;
+}
+
+.page .main-area .content {
+  flex-basis: 70%;
+  background-color: var(--mainColor);
+  padding: var(--mainPadding);
+  margin-right: var(--mainMargin);
+}
+
+
+.page .main-area .sidebar {
+  flex-basis: 30%;
+  background-color: var(--mainColor);
+  padding: var(--mainPadding);
+}
+
+
+.page .footer {
+  background-color: var(--mainColor);
+  margin: var(--mainMargin);
+  display: flex;
+
+}
+
+
+.page .footer .copyright, .page .footer .design {
+  flex-basis: 50%;
+  padding: var(--mainPadding);
+}
+
+
+.page .footer .design {
+  text-align: right;
+}
+
+

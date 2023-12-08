@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 1600px;
+  font-size: 25px;
+  color: white;
+}
+
+div::before, div::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  backface-visibility: hidden;
+}
+
+div::before {
+  content: "Front";
+  background-color: #fa3664;
+}
+
+div::after {
+  content: "Back";
+  background-color: #1692fc;
+  transform: rotateY(180deg);
+}
+
+div:hover::before {
+  transform: rotateY(-180deg);
+}
+
+div:hover::after {
+  transform: rotateY(0);
+}

@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* div {
+  background-color: #f4f4f4;
+  width: 600px;
+  margin: 50px auto;
+  
+} */
+
+input {
+  background-color: #f4f4f4;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto 0 auto;
+  border-style: none;
+  caret-color: red;
+  color: #757575;
+  position: relative;
+}
+
+input:hover {
+  color: blue;
+}
+
+input::after {
+  content: "";
+  width: calc(100% + 20px); 
+  height: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  background-image: linear-gradient(
+    to right,
+    #f44336 50%,
+    #009688 50%,
+    #009688 100%
+  );
+}
+

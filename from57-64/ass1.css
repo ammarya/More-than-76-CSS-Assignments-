@@ -1,0 +1,46 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px auto;
+  gap: 20px;
+  
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10% 1fr;
+  gap: 20px; */
+
+
+}
+
+.grid div {
+  background-color: #607d8b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  counter-increment: count;
+
+}
+
+.grid div::before {
+  content: "Element " counter(count);
+
+}

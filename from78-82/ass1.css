@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* div:nth-of-type(1), div:nth-last-of-type(1) {
+  color: red;
+} */
+
+div.main.red {
+  color: red;
+}

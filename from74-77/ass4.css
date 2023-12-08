@@ -1,0 +1,123 @@
+:root {
+  --main-color: #323234;
+  --secondary-color:#fea604;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-letter {
+  position: relative;
+  display: inline-flex;
+  width: 200px;
+  height: 350px;
+  margin-right: 20px;
+}
+
+.main-letter .left-area {
+  width: 50px;
+  height: 100%;
+  background-color: var(--main-color);
+}
+
+.e-letter .right-area {
+  display: flex;
+  align-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.e-letter .right-area span {
+  background-color: var(--main-color);
+  height: 50px;
+  width: 100%;
+}
+
+.l-letter .right-area {
+  background-color: var(--main-color);
+  display: flex;
+  flex: 1;
+  height: 50px;
+  align-self: flex-end;
+}
+
+.e-move-squar {
+  width: 30px;
+  height: 30px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 1;
+  animation-name: e-squar;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+}
+
+.l-move-squar {
+  width: 30px;
+  height: 30px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  animation-name: l-squar;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+
+}
+
+@keyframes l-squar {
+  25% {
+    transform: translateX(-150px);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-150px, -300px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-150px, -300px);
+    opacity: 0;
+  }
+}
+
+@keyframes e-squar {
+  20% {
+    transform: translate(-150px, 0);
+  }
+  30%, 50% {
+    transform: translate(-150px, 150px);
+  }
+  40% {
+    transform: translate(0, 150px);
+  }
+  60% {
+    transform: translate(-150px, 300px);
+  }
+  70% {
+    transform: translate(0, 300px);
+  }
+  80% {
+    transform: translate(-150px, 300px);
+  }
+  90% {
+    transform: translate(-150px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+

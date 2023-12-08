@@ -1,0 +1,71 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 
+.parent {
+  text-transform: capitalize;
+  background-color: #f2f2f4;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  padding: 10px;
+  transition-duration: 0.5s;
+  transition-property: margin-top;
+}
+
+.child1 {
+  background-color: #dededc;
+  width: 350px;
+  margin: 0 auto 50px auto;
+  padding: 10px;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+  transition-property: margin-top;
+}
+
+.parent:hover {
+  margin-top: 20px;
+}
+
+.parent:hover .child1 {
+  margin-top: 40px;
+} */
+
+
+
+
+/* 
+div {
+  background-color: #eee !important;
+  color: #000 !important;
+  text-align: center;
+  width: 400px;
+  font-size: 0 !important;
+}
+
+div::after {
+  content: "Elzero";
+  font-size: 20px
+} */
+
+
+/* 
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}
+
+div {
+  padding: var(--mainPadding, 10px);
+  color: var(--mainColor, red);
+  border: var(--mainColor, black) solid 2px;
+  margin: 10px;
+} */

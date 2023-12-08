@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #009688;
+}
+
+h1 {
+  width: 150px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--main-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+
+
+h1::before {
+  content: "";
+  background-color: var(--main-color);
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  left: -15px;
+  top: 0;
+  transform: skew(20deg);
+}
+
+
+
+h1::after {
+  content: "";
+  background-color: var(--main-color);
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  left: -40px;
+  top: 0;
+  transform: skew(20deg);
+}
+

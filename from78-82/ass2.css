@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* .parent >:nth-child(2) {
+  color: red;
+} */
+
+
+.parent > .child:last-child {
+  color: red;
+
+}
