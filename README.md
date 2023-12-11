@@ -1,3 +1,3 @@
 # Solve more than 76 CSS problems.
-From this source:
+# The source of CSS problems:
 https://elzero.org/category/assignments/css-assignments/
